@@ -1,0 +1,51 @@
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: monospace;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+
+hr {
+  max-width: 305px;
+  border-width: 3px;
+  border-color: green;
+}
+
+.faded{
+	  color: rgb(68, 120, 132); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1528238646472-f2366160b6c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+	font-family: monospace;
+}
+
+.btn-success:hover {
+	border-color: white;
+	border-width: 2px;
+}
