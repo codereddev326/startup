@@ -9,10 +9,7 @@ body {
 	font-family: monospace;
 }
 
-.container {
-	display: flex;
-	justify-content: center;
-}
+
 
 
 hr {
@@ -42,7 +39,7 @@ header.startup h1 {
 }
 
 .btn {
-	font-family: monospace;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .btn-success:hover {
